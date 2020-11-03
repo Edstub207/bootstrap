@@ -51,7 +51,7 @@ Which outputs the following:
 .opacity-100 { opacity: 1; }
 ```
 
-## Custom class prefix
+### Custom class prefix
 
 Use the `class` option to change the class prefix used in the compiled CSS:
 
@@ -81,7 +81,7 @@ Output:
 .o-100 { opacity: 1; }
 ```
 
-## Responsive utilities
+### Responsive utilities
 
 Add the `responsive` boolean to generate responsive utilities (e.g., `.opacity-md-25`) across [all breakpoints]({{< docsref "/layout/breakpoints" >}}).
 
@@ -151,7 +151,7 @@ Output:
 }
 ```
 
-## Changing utilities
+### Changing utilities
 
 Override existing utilities by using the same key. For example, if you want additional responsive overflow utility classes, you can do this:
 
@@ -165,7 +165,7 @@ $utilities: (
 );
 ```
 
-## Print utilities
+### Print utilities
 
 Enabling the `print` option will **also** generate utility classes for print, which are only applied within the `@media print { ... }` media query.
 
@@ -203,7 +203,7 @@ Output:
 }
 ```
 
-## Remove utilities
+### Remove utilities
 
 Utilities can also be removed by changing the group key to `null`:
 
